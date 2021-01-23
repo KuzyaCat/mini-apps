@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <title>Fancy Weather</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.6.0/mapbox-gl.css' rel='stylesheet' />
+</head>
+
+<body>
+    <div id="forecast">
+        <div class="controls">
+            <div class="btns">
+                <div class="refresh" id="refresh">
+                    <i class="fas fa-sync-alt"></i>
+                </div>
+                <div class="langs">
+                    <div class="lang" id="en">
+                        <span class="lang-value">EN</span>
+                    </div>
+                    <div class="lang" id="ru">
+                        <span class="lang-value">RU</span>
+                    </div>
+                    <div class="lang" id="be">
+                        <span class="lang-value">BE</span>
+                    </div>
+                </div>
+                <div class="temperature">
+                    <div data-temp="F" class="temperature-fahrenheit temperature_unit">F</div>
+                    <div data-temp="C" class="temperature-сelsius temperature_unit">С</div>
+                </div>
+            </div>
+            <form class="search" action="#">
+                <div class="input_with_icon">
+                    <input id="search_value" type="text" placeholder="Search city">
+                    <i class="fas fa-microphone"></i>
+                </div>
+                <button id="search_btn" type="button">SEARCH</button>
+            </form>
+        </div>
+    </div>
+<script type="text/javascript" src="main.js?b6fb0826c600008c20cb"></script></body>
+
+</html>
