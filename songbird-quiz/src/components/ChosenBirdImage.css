@@ -1,0 +1,7 @@
+.chosen-bird--image {
+  width: 13.889vw;
+  height: 155px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-right: 2vw;
+}

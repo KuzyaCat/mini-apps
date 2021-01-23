@@ -1,0 +1,9 @@
+.player-image {
+  width: 13.889vw;
+  height: 155px;
+  border-radius: 10px;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  box-sizing: border-box;
+  align-self: center;
+}

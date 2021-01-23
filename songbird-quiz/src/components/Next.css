@@ -1,0 +1,28 @@
+.Next {
+  background-color: #303030;
+  border-radius: 7px;
+  width: 100%;
+  outline: none;
+  height: 32px;
+  margin-top: 25px;
+  border: 0;
+  box-sizing: border-box;
+  color: #ffffff;
+  font-size: 1.3em;
+  border: 1px solid #444;
+}
+
+.Next:hover {
+  cursor: pointer;
+  background-color: #444;
+}
+
+.green {
+  border: 1px solid #444;
+  background-color: #00bc8c;
+}
+
+.green:hover {
+  background-color: #00efb2;
+  cursor: pointer;
+}

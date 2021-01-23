@@ -1,0 +1,10 @@
+.player-name {
+  padding-bottom: 8px;
+  border-bottom: 1px solid #444;
+  width: auto;
+}
+
+.player-name span {
+  color: #ffffff;
+  font-size: 2em;
+}

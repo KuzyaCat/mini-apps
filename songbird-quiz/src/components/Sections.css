@@ -1,0 +1,31 @@
+.Sections {
+  width: 100%;
+  list-style-type: none;
+  height: 40px;
+  padding-left: 0;
+  color: #ffffff;
+}
+
+.Sections li {
+  width: calc(100% / 6);
+  display: inline-flex;
+  height: 100%;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #008966;
+}
+
+.Sections li:first-of-type {
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+.Sections li:last-of-type {
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+.Sections .active {
+  background-color: #00bc8c;
+}

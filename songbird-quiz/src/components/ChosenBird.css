@@ -1,0 +1,20 @@
+.chosen-bird {
+  height: 295px;
+  width: 37.5vw;
+  background-color: #303030;
+  box-sizing: border-box;
+  padding: 1vw;
+  border-radius: 7px;
+  border: 1px solid #444;
+  color: #ffffff;
+}
+
+.chosen-bird--title {
+  display: flex;
+  flex-direction: row;
+}
+
+.chosen-bird--title-right {
+  display: flex;
+  flex-direction: column;
+}

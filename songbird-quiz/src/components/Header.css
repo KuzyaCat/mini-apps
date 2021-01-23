@@ -1,0 +1,11 @@
+.Header {
+  display: flex;
+  flex-direction: column;
+}
+
+.Header-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
