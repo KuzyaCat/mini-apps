@@ -1,0 +1,52 @@
+.user-form {
+  width: 100%;
+}
+
+.user-form button {
+  width: 100px;
+  height: 35px;
+}
+
+.user-form-item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.user-form-item-inline {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.user-form-item input, .user-form-item select {
+  height: 30px;
+}
+
+.user-form-item label {
+  margin-bottom: 10px;
+}
+
+.user-form-questions {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.question {
+  height: 20px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.questions-btns {
+  display: flex;
+  flex-direction: row;
+}
+
+.questions-btns button:first-child {
+  margin-right: 20px;
+}
+
+.error {
+  color: red;
+}

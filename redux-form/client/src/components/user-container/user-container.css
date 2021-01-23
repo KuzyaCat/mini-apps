@@ -1,0 +1,13 @@
+.user-container {
+  width: 600px;
+  border: 1px solid #000;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 50px;
+  margin: 20px auto;
+}
+
+.user-container h1 {
+  margin-bottom: 20px;
+  text-align: center;
+}
