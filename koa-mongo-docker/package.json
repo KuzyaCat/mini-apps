@@ -1,0 +1,27 @@
+{
+  "name": "15-docker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx nodemon ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KuzyaCat/15-docker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KuzyaCat/15-docker/issues"
+  },
+  "homepage": "https://github.com/KuzyaCat/15-docker#readme",
+  "dependencies": {
+    "@paralect/node-mongo": "^2.0.0-beta.5",
+    "joi": "^17.1.1",
+    "koa": "^2.13.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-router": "^9.1.0"
+  }
+}

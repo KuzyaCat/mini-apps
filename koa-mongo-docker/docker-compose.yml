@@ -1,0 +1,22 @@
+version: '3'
+
+services:
+  nodejs:
+    build: .
+    ports:
+      - "3189:3189"
+    networks:
+      - alex-network
+  db:
+    image: mongo:4.2
+    container_name: alexander_mongo
+    volumes:     
+      - dbdata:/data/db
+    networks:
+      - alex-network
+    
+networks:
+  alex-network:
+  
+volumes:
+  dbdata:
