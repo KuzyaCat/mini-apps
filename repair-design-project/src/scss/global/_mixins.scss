@@ -1,0 +1,89 @@
+@mixin flex-center ($direction) {
+    display: flex;
+    flex-direction: $direction;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin flex-column-end {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+@mixin flex-row-start {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+@mixin flex-row-end {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+@mixin flex-column-start {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+@mixin flex-column-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@mixin flex-around ($direction) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: space-around;
+}
+
+@mixin rotate ($degree) {
+    -webkit-transform: rotate($degree); 
+    -moz-transform: rotate($degree);
+    -ms-transform: rotate($degree);
+    transform: rotate($degree);
+}
+
+@mixin submit-input-placeholder($color) {
+    &::-webkit-input-placeholder {
+        font-family: $FuturaBookC;
+        font-size: 1.125rem;
+        color: $color;
+    }
+    &::-moz-placeholder {
+        font-family: $FuturaBookC;
+        font-size: 1.125rem;
+        color: $color;
+    }
+    &:-ms-input-placeholder {
+        font-family: $FuturaBookC;
+        font-size: 1.125rem;
+        color: $color;
+    }
+    &:-moz-placeholder {
+        font-family: $FuturaBookC;
+        font-size: 1.125rem;
+        color: $color;
+    }
+    &::placeholder {
+        font-family: $FuturaBookC;
+        font-size: 1.125rem;
+        color: $color;
+    }
+}
+
+@mixin media-phone {
+    @media screen and (max-width: 1000px) { 
+        @content;
+    }
+}
+
+@mixin media-medium {
+    @media screen and (min-width: 376px) and (max-width: 1000px) { 
+        @content;
+    }
+}
