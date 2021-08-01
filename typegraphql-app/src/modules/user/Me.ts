@@ -1,3 +1,4 @@
+
 import { Resolver, Query, Ctx } from 'type-graphql';
 
 import { User } from '../../entity/User';
@@ -7,7 +8,7 @@ import { MyContext } from '../../types/MyContext';
 export class MeResolver {
   @Query(() => User, { nullable: true })
   async me(@Ctx() ctx: MyContext): Promise<User | undefined> {
-    if (!(ctx.req.session as any)!.userId) {
+    if ((!ctx.req.session as any)!.userId) {
       return undefined;
     }
 
