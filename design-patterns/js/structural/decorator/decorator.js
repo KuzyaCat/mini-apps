@@ -1,54 +1,52 @@
 // Reducing the number of classes. Add new options, new modifications
 
-class Pasta {
+
   constructor() {
-    this.price = 0;
+    this.price = 10000;
+    this.model = 'Car'
   }
+
   getPrice() {
     return this.price;
   }
+
+  getDescription() {
+    return this.model
+  }
 }
 
-class Penne extends Pasta {
+class Tesla extends Car {
   constructor() {
     super();
-    this.price = 8;
+    this.price = 25000;
+    this.model = 'Tesla';
   }
 }
 
-class PastaDecorator extends Pasta {
-  constructor(pasta) {
-    super();
-    this.pasta = pasta;
+class Autopilot {
+  constructor(car) {
+    this.car = car;
   }
 
   getPrice() {
-    return this.pasta.getPrice();
+    return this.car.getPrice() + 5000;
+  }
+
+  getDescription() {
+    return `${this.car.getDescription()} with autopilot`;
   }
 }
 
-class SauceDecorator extends PastaDecorator {
-  constructor(pasta) {
-    super(pasta);
+class Parktronic {
+  constructor(car) {
+    this.car = car;
   }
 
   getPrice() {
-    return super.getPrice() + 5;
-  }
-}
-
-class CheeseDecorator extends PastaDecorator {
-  constructor(pasta) {
-    super(pasta);
+    return this.car.getPrice() + 3000;
   }
 
-  getPrice() {
-    return super.getPrice() + 3;
+  getDescription() {
+    return `${this.car.getDescription()} with parktronic`;
   }
-}
-
-export {
-  Penne,
-  SauceDecorator,
-  CheeseDecorator
 }
