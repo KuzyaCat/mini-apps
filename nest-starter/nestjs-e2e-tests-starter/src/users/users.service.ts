@@ -1,34 +1,32 @@
 import { Injectable } from '@nestjs/common';
 import { v4 as uuidv4 } from 'uuid';
+import { UpdateUserRequest } from './dto/request/update-user-request.dto';
 
-import { GetUserArgs } from './dto/args/get-user-args.dto';
-import { CreateUserInput } from './dto/input/create-user-input.dto';
-import { UpdateUserInput } from './dto/input/update-user-input.dto';
-import { User } from './User';
+import { User } from './user.schema';
 import { UsersRepository } from './users.repository';
 
 @Injectable()
 export class UsersService {
-  constructor(private readonly usersRepository: UsersRepository) {}
+    constructor(private readonly usersRepository: UsersRepository) {}
 
-  async getUser(getUserArgs: GetUserArgs): Promise<User> {
-    return this.usersRepository.findOne(getUserArgs);
-  }
+    async getUserById(userId: string): Promise<User> {
+        return this.usersRepository.findOne({ userId })
+    }
 
-  async getUsers(): Promise<User[]> {
-    return this.usersRepository.find({});
-  }
+    async getUsers(): Promise<User[]> {
+        return this.usersRepository.find({});
+    }
 
-  async createUser(createUserData: CreateUserInput): Promise<User> {
-    return this.usersRepository.create({
-      userId: uuidv4(),
-      email: createUserData.email,
-      age: createUserData.age,
-      favoriteFoods: [],
-    });
-  }
+    async createUser(email: string, age: number): Promise<User> {
+        return this.usersRepository.create({
+            userId: uuidv4(),
+            email,
+            age,
+            favoriteFoods: []
+        })
+    }
 
-  async updateUser(updateUserData: UpdateUserInput): Promise<User> {
-    return this.usersRepository.findOneAndUpdate({ userId: updateUserData.userId }, updateUserData);
-  }
+    async updateUser(userId: string, userUpdates: UpdateUserRequest): Promise<User> {
+        return this.usersRepository.findOneAndUpdate({ userId }, userUpdates);
+    }
 }

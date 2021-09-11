@@ -1,4 +1,4 @@
-import { User } from '../../User';
+import { User } from '../../User.schema';
 
 export const userStub = (): User => {
   return {
