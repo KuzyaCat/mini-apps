@@ -1,0 +1,21 @@
+@import "../../constants/colors.css";
+
+.auth-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 0;
+  font-weight: bold;
+}
+
+.auth-header h1 {
+  color: var(--color-primary);
+  width: 200px;
+  text-align: center;
+}
+
+.auth-header__logo {
+  width: 30%;
+}
+

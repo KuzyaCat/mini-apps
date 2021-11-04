@@ -1,0 +1,22 @@
+@import '../../constants/colors.css';
+
+.no-events {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: calc(100% - 215px);
+  padding: 0 2%;
+}
+
+.no-events__header {
+  color: var(--color-primary);
+  text-align: center;
+}
+
+.no-events__icon {
+  width: 50%;
+  height: 50%;
+  color: var(--color-primary);
+}
+

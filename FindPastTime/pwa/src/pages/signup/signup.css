@@ -1,0 +1,18 @@
+@import "../../constants/colors.css";
+
+.signup-page__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup-page__link {
+  margin: 20px 0;
+}
+
+.signup-page__link_span {
+  color: var(--color-primary);
+  margin-left: 5px;
+}
+
