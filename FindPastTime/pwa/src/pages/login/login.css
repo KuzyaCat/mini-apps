@@ -1,0 +1,19 @@
+@import "../../constants/colors.css";
+
+.login-page__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-page__link {
+  margin: 20px 0;
+}
+
+.login-page__link_span {
+  color: var(--color-primary);
+  margin-left: 5px;
+}
+
+

@@ -1,0 +1,11 @@
+@import '../../constants/colors.css';
+
+.form {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.form__error-message {
+  color: var(--color-error);
+}

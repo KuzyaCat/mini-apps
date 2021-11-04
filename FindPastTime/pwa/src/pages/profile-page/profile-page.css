@@ -1,0 +1,23 @@
+.profile-page__wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 15px 5%;
+  justify-content: flex-end;
+}
+
+.profile-page__name {
+  margin: 0;
+}
+
+.profile-page__location {
+  margin-top: 0;
+}
+
+.profile-page__description {
+  overflow-wrap: break-word;
+}
+
+.profile-page__image {
+  height: 400px;
+}
+
