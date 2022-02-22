@@ -1,0 +1,11 @@
+/Users/alex/mini-apps/web-crawler/target/debug/deps/parking_lot_core-0543c4dd6ae9acde.rmeta: /Users/alex/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.8.5/src/lib.rs /Users/alex/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.8.5/src/parking_lot.rs /Users/alex/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.8.5/src/spinwait.rs /Users/alex/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.8.5/src/thread_parker/mod.rs /Users/alex/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.8.5/src/util.rs /Users/alex/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.8.5/src/word_lock.rs /Users/alex/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.8.5/src/thread_parker/unix.rs
+
+/Users/alex/mini-apps/web-crawler/target/debug/deps/parking_lot_core-0543c4dd6ae9acde.d: /Users/alex/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.8.5/src/lib.rs /Users/alex/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.8.5/src/parking_lot.rs /Users/alex/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.8.5/src/spinwait.rs /Users/alex/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.8.5/src/thread_parker/mod.rs /Users/alex/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.8.5/src/util.rs /Users/alex/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.8.5/src/word_lock.rs /Users/alex/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.8.5/src/thread_parker/unix.rs
+
+/Users/alex/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.8.5/src/lib.rs:
+/Users/alex/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.8.5/src/parking_lot.rs:
+/Users/alex/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.8.5/src/spinwait.rs:
+/Users/alex/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.8.5/src/thread_parker/mod.rs:
+/Users/alex/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.8.5/src/util.rs:
+/Users/alex/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.8.5/src/word_lock.rs:
+/Users/alex/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.8.5/src/thread_parker/unix.rs:

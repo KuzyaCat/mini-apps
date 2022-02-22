@@ -1,0 +1,12 @@
+/Users/alex/mini-apps/web-crawler/target/debug/deps/proc_macro2-905f46494889e409.rmeta: /Users/alex/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-1.0.32/src/lib.rs /Users/alex/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-1.0.32/src/marker.rs /Users/alex/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-1.0.32/src/parse.rs /Users/alex/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-1.0.32/src/detection.rs /Users/alex/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-1.0.32/src/fallback.rs /Users/alex/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-1.0.32/src/wrapper.rs
+
+/Users/alex/mini-apps/web-crawler/target/debug/deps/libproc_macro2-905f46494889e409.rlib: /Users/alex/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-1.0.32/src/lib.rs /Users/alex/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-1.0.32/src/marker.rs /Users/alex/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-1.0.32/src/parse.rs /Users/alex/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-1.0.32/src/detection.rs /Users/alex/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-1.0.32/src/fallback.rs /Users/alex/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-1.0.32/src/wrapper.rs
+
+/Users/alex/mini-apps/web-crawler/target/debug/deps/proc_macro2-905f46494889e409.d: /Users/alex/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-1.0.32/src/lib.rs /Users/alex/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-1.0.32/src/marker.rs /Users/alex/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-1.0.32/src/parse.rs /Users/alex/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-1.0.32/src/detection.rs /Users/alex/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-1.0.32/src/fallback.rs /Users/alex/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-1.0.32/src/wrapper.rs
+
+/Users/alex/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-1.0.32/src/lib.rs:
+/Users/alex/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-1.0.32/src/marker.rs:
+/Users/alex/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-1.0.32/src/parse.rs:
+/Users/alex/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-1.0.32/src/detection.rs:
+/Users/alex/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-1.0.32/src/fallback.rs:
+/Users/alex/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-1.0.32/src/wrapper.rs:
