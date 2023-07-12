@@ -43,7 +43,7 @@ var rob = function(nums) {
   return memo[nums.length];
 };
 
-// #1 Recursion
+// #3 Recursion
 // O(n) - time, O(n) - space
 /**
  * @param {number[]} nums
